@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/homeLbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/homeLbl"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="26sp" />
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    >
+
+            <ImageView
+                android:id="@+id/homeCalcBtn"
+                android:layout_weight="1"
+               
+        		android:paddingLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calculatoricon" />
+
+            <ImageView
+                android:id="@+id/HomeExchngeBtn"
+                android:layout_width="wrap_content"
+                android:paddingRight="80dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/echangeconverter" />
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    >
+            <ImageView
+                android:id="@+id/homeWeightBtn"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                  android:paddingLeft="80dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/weightconverter" />
+
+            <ImageView
+                android:id="@+id/homeThermalBtn"
+                android:layout_weight="1"
+                  android:paddingRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/thermalconverter" />
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    >
+            <ImageView
+                android:id="@+id/homeByteBtn"
+                android:layout_weight="1"
+                  android:paddingLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/byteconverter" />
+
+            <ImageView
+                android:id="@+id/homeLengthBtn"
+                android:layout_weight="1"
+                  android:paddingRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lengthconverter" />
+</LinearLayout>
+    </LinearLayout>
